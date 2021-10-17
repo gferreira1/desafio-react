@@ -1,0 +1,201 @@
+html{
+  margin: 0%;
+
+}
+
+p{
+  margin: 0%;
+}
+
+.App {
+  text-align: center;
+}
+
+/*header{
+  width: 100vw;
+  height: 8vh;
+
+  background-color: #61dafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}*/
+
+/*nav{
+  max-width: 900px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}*/
+
+body{
+ 
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.inpttext input{
+  height:5vh;
+  width:30vw;
+}
+
+.sidebar{
+    position: absolute;
+    z-index: 99;
+    height: 84%;
+    width: 300px;
+    right: 0;
+    margin-top: 0;
+    border: 1px solid rgb(1, 2, 2);
+}
+
+.myCar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 5%;
+  margin: 10px;
+}
+
+  li span{
+  align-items: center;
+  justify-content: space-between;
+  margin: 3px;
+  
+  
+}
+.totalcar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 5%;
+  margin: 10px;
+  
+  
+}
+.nav-bar-icon{
+  display: flex;
+  align-items: flex-start;
+}
+
+ .iconcopreh{
+  font-size:25px;
+  display:flex;
+  justify-content:flex-end;
+  min-width: 10%;
+ 
+  
+}
+.numecopre{
+ font-size:18px;
+ align-items: flex-start;
+}
+.buttonFin{
+  
+  
+  align-items: center;
+  justify-content: space-between;
+  width: 93%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #6558f5;
+  color:#fff;
+  border: none;
+  
+
+}
+ .btnadd{
+  background-color: #6558f5;
+  border: none;
+  padding: 0 2rem;
+  height: 2rem;
+  color: #fff;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 100%;
+}
+
+main{
+  position:absolute;
+/*  width: 20%;
+  min-width: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+
+/*.movies-section{
+  max-width: 900px;
+  width: 100px;
+  
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}*/
+.card{
+  background-color: rgb(99, 99, 99);
+  margin: 10px;
+  margin-top: 20px;
+  padding: 1px;
+  width: 100%;
+}
+
+
+.App-link {
+  color: #cdfb61;
+  
+}
+.carimg{
+  background-color: rgb(214, 214, 214);
+  height: 12vw;
+}
+
+.titlemovie{
+  font-size: 12px;
+  text-align: center;
+}
+.boxtwo{
+  font-size: 12px;
+  text-align: center;
+  background-color: #fff;
+  padding: 2px;
+}
+.boxtwo span{
+  padding: 5px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 5%;
+}
+
+.boxtwo p{
+  padding: 5px;
+
+}
+
+.datanum{
+  font-size: 12px;
+  text-align: center;
+}
+
+.heartimg{
+  padding: 5px;
+  font-size: 15px;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 5%;
+}
+
+
